@@ -1,0 +1,104 @@
+.play-music-dev {
+  display: flex;
+  position: relative;
+  width: var(100vh - 300px);
+  height: 100vh;
+  /* margin-left: 300px; */
+  font-weight: Poppins;
+  color: white;
+}
+.play-music {
+  width: 75%;
+  height: 100%;
+  position: relative;
+}
+.play-music-se {
+  width: 20%;
+  height: 100%;
+  background: rgba(15, 15, 15, 0.6);
+  right: 0px;
+}
+.card-play-name {
+  width: 90%;
+  margin: 100px auto 30px ;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  border-radius: 40px;
+  padding-left: 50px;
+  flex-direction: column;
+  gap: 10px;
+  height:343px;
+  background-image: url("./img/Card.svg");
+
+}
+
+
+/* App.css */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+transform: translateX();
+  
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid transparent;
+}
+
+th {
+  background-color: transparent;
+}
+
+tr:nth-child(even) {
+  background-color: transparent;
+padding: 40px;
+}
+
+
+tr:hover {
+  background-color: rgba(82, 0, 0, 1);
+  
+}
+.app-min {
+  height: auto;
+  background: linear-gradient(180deg, #4C0000 0%, #0A0A0A 100%),
+  linear-gradient(90deg, rgba(0, 0, 0, 0) 73.01%, rgba(15, 15, 15, 0.6) 73.01%);
+}
+.play-music-se-dev {
+  background: rgba(107, 0, 0, 1);
+  margin: 100% auto 20px auto;
+  border-radius: 15px;
+ }
+@media (max-width:1200px) {
+  .play-music-dev{
+    flex-direction: column !important;
+    padding-top: -20px;
+  
+  }
+  .play-music {
+    width: 100%;
+  }
+  .play-music-se {
+    position: relative !important;
+    width: 100% !important;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px !important;
+  }
+  .play-music-se-dev {
+    background: rgba(107, 0, 0, 1);
+    margin: auto !important;
+    border-radius: 15px;
+  
+   }
+}

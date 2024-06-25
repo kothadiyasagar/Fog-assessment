@@ -45,7 +45,7 @@ app.get('/api/songs', async (req, res) => {
             return {
                 id: index + 1,
                 title: path.parse(file).name, // Assuming the title is the filename without extension
-                src: `http://localhost:${PORT}/songs/${file}`,
+                src: `https://fog-assessment.onrender.com/songs/${file}`,
                 duration: duration,
                 plays: "407.234.004", // Default plays to 0 or fetch from another source if available
                 album: 'Thriller 25 Sup...', // Default album to 'Unknown' or fetch from another source if available
